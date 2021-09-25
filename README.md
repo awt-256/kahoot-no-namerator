@@ -16,7 +16,7 @@ inject((_,__, {c: cache}) => {
 });
 ```
 
-Or, paste this into the url (or as a bookmark) of your browser.
+Or, paste this into the url (or as a bookmark) of your browser before you enter the pin of your game.
 ```js
 javascript:((u,i)=>webpackJsonp.push([[],{[u]:(m,e,{c})=>{for(i in c)c[i].exports&&c[i].exports.a&&c[i].exports.a.NAMERATOR&&(c[i].exports.a.NAMERATOR=c[i].exports.a.JOIN)}},[[u]]]))(Math.random());
 ```
