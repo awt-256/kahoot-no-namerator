@@ -10,7 +10,7 @@ function inject(module) {
     return uuid;
 }
 inject((_,__, {c: cache}) => {
-    for (const i in cache) if (cache[i] && cache[i].exports && cache[i].exports.a && cache[i].exports.a.NAMERATOR && cache[i].exports.a.JOIN) {
+    for (const i in cache) if (cache[i].exports && cache[i].exports.a && cache[i].exports.a.NAMERATOR && cache[i].exports.a.JOIN) {
         cache[i].exports.a.NAMERATOR = cache[i].exports.a.JOIN;
     }
 });
